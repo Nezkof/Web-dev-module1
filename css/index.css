@@ -1,0 +1,54 @@
+@import url("../css/col-1.css");
+@import url("../css/col-2.css");
+@import url("../css/col-3.css");
+@import url("../css/footer.css");
+
+:root {
+   --standart-white-color: rgb(255, 255, 255);
+   --header-background-color: rgb(202, 133, 64);
+   --page-color: rgb(235, 229, 205);
+   --text-color: #1e1b1e;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+.col,
+.col-lg-8,
+.col-lg-4 {
+   background-color: var(--header-background-color);
+}
+
+.layout__column--1 {
+   color: var(--text-color);
+   background-color: var(--page-color);
+   min-height: calc(100vh - 15vh);
+}
+
+.layout__column--2 {
+   border-left: 1px solid rgba(0, 0, 0, 0.24);
+   border-right: 1px solid rgba(0, 0, 0, 0.24);
+   color: var(--text-color);
+   background-color: var(--page-color);
+   padding: 25px 19px 0px 20px !important;
+   min-height: calc(100vh - 15vh);
+}
+
+.layout__column--3 {
+   color: var(--text-color);
+   background-color: var(--page-color);
+   /* padding: 21px 50px 0px 20px !important; */
+   min-height: 100vh;
+}
+
+.full-height {
+   height: 100vh;
+}

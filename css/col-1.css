@@ -1,0 +1,83 @@
+.layout__header {
+   background-color: var(--header-background-color);
+   gap: 24px;
+   display: flex;
+   align-items: center;
+   padding: 21px 1.5vw 20px 16px;
+   border-radius: 0px 0px 30px 30px;
+}
+
+.layout__search-group {
+   background-color: var(--standart-white-color);
+   flex: 1;
+   height: 51px;
+   border-radius: 30px;
+   padding: 0px 10px;
+   align-items: center;
+}
+
+.layout__search__button {
+   position: absolute;
+   right: 10px;
+   height: 35px;
+   width: 35px;
+   border-radius: 50%;
+
+   background-image: url("../public/search.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 15px;
+   border: none;
+   cursor: pointer;
+}
+
+.layout__search {
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   padding-left: 10px;
+}
+
+.layout__search:focus {
+   outline: none;
+   border: none;
+}
+
+.layout__logo {
+   width: 65px;
+   height: 65px;
+   border-radius: 50%;
+   background-color: var(--standart-white-color);
+}
+
+.layout__optional-section {
+   padding: 33px 19px 34px 20px;
+}
+
+.layout__optional-article {
+   margin-top: 20px;
+}
+
+.layout__section-title {
+   text-align: center;
+}
+
+.layout__menu__btn {
+   aspect-ratio: 1;
+   width: 40px;
+   border-radius: 50%;
+   border: none;
+   background-color: var(--standart-white-color);
+   /* якщо Ви це читаєте, то в ідеалі до кожної кнопки треба додати 
+      відповідне зображення, але я не знайшов потрібних іконок */
+}
+
+.img-fluid {
+   border-radius: 15px;
+   width: 100%;
+}
+
+.img-fluid:hover {
+   transform: scale(1.01);
+   transition: transform 0.2s;
+}
