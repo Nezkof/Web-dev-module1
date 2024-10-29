@@ -1,7 +1,7 @@
-@import url("../css/col-1.css");
-@import url("../css/col-2.css");
-@import url("../css/col-3.css");
-@import url("../css/footer.css");
+@import url("./col-1.css");
+@import url("./col-2.css");
+@import url("./col-3.css");
+@import url("./footer.css");
 
 :root {
    --standart-white-color: rgb(255, 255, 255);
